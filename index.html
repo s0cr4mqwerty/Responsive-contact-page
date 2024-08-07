@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-logo">
+        <img class="logo" src="assets/contact-form-icon.svg" alt="Logo empresa">
+    </header>
+    <div class="container">
+        <div class="contact-page">
+            <h1 class="contact-tittle">Interest in our business pricing?</h1>
+            <h3 class="contact-text">Fill out the form to view details and we'll contact you as soon as possible</h3>
+            <form action="">
+                <p>
+                    <label for="fullname">Name</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Ethan Johnson">
+                </p>
+                <p>
+                    <label>Company Email</label>
+                    <input type="text" name="email" placeholder="ethan@johnson.com">
+                </p>
+                <p>
+                    <label>Company size</label>
+                    <select name="companysize" id="companysize">
+                        <option value="0-50">0-50 employees</option>
+                        <option value="50-100">50-100 employees</option>
+                        <option value="100-150">100-150 employees</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Subject</label>
+                    <select name="subject" id="subject">
+                        <option value="buildinglandingpages">Building landing pages</option>
+                    </select>
+                </p>
+                <p class="contact-page-message">
+                    <label>Message</label>
+                    <textarea name="message" rows="6" placeholder="50-100 employees"></textarea>
+                </p>
+                <p class="contact-page-button">
+                    <button type="submit">Contact Sales</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
